@@ -1,0 +1,9 @@
+You will be given an English sentence that may have grammatical errors and a sentence that is the corrected version of the sentence.
+
+Your task is to rate the corrected sentence on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Grammaticality (0-4) - The grammatical correctness of the system output; 4: Perfect, 3: Comprehensible, 2: Somewhat comprehensible, 1: Incomprehensible, and 0: Other

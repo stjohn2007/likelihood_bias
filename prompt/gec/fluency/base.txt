@@ -1,0 +1,9 @@
+You will be given an English sentence that may have grammatical errors and a sentence that is the corrected version of the sentence.
+
+Your task is to rate the corrected sentence on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Fluency (0-4) -  How natural the sentence sounds for native speakers; 4: Extremely natural, 3: Somewhat natural, 2: Somewhat unnatural, and 1: Extremely unnatural, and 0: Other

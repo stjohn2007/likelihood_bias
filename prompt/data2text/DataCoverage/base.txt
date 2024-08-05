@@ -1,0 +1,9 @@
+You will be given an xml data and a English sentence that represents xml data.
+
+Your task is to rate the sentence that represents xml data on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Data Coverage: (1-5) - does the text cover all predicates which are found in the data? 1 is the lowest score, 5 is the highest.

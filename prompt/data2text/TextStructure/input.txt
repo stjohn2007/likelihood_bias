@@ -1,0 +1,3 @@
+Source xml data: {{input}}
+
+Sentence: {{output}}
