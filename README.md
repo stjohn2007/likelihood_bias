@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2307.11729-b31b1b.svg)](https://arxiv.org/pdf/2402.15987)
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-green.svg)](./LICENSE)
 
-**This is the official code for our paper, "Likelihood-based Mitigation of Evaluation Bias in Large Language Models" (accepted to ACL2024)**
+### This is the official code for our paper, "Likelihood-based Mitigation of Evaluation Bias in Large Language Models" (accepted to ACL2024)
 
 ## Create Python environment
 
