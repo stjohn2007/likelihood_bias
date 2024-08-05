@@ -1,10 +1,10 @@
-# Code for paper "Likelihood-based Mitigation of Evaluation Bias in Large Language Models"
+# Likelihood bias
 
 ![](https://img.shields.io/badge/Made_with-python-blue.svg)
 [![arXiv](https://img.shields.io/badge/arXiv-2307.11729-b31b1b.svg)](https://arxiv.org/pdf/2402.15987)
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-green.svg)](./LICENSE)
 
-This is the official code for our ACL2024 paper, "Likelihood-based Mitigation of Evaluation Bias in Large Language Models".
+**This is the official code for our paper, "Likelihood-based Mitigation of Evaluation Bias in Large Language Models" (accepted to ACL2024)**
 
 ## Create Python environment
 
@@ -14,11 +14,11 @@ conda activate likelihood_bias
 pip install -r requirements.txt
 ```
 
-## Put API KEY of OPENAI
+## Put API key of OPENAI
 
 Please copy `.env.sample` as `.env`, and put your API key on the file.
 
-## Prepare Data
+## Prepare data
 
 ### Data2Text
 
@@ -33,7 +33,7 @@ Please download input data from [here](https://gitlab.com/shimorina/webnlg-datas
 
 Please download dataset from [here](https://github.com/tmu-nlp/TMU-GFM-Dataset/blob/main/tmu-gfm-dataset.csv) and put it on `data_orig/gec/tmu-gfm-dataset.csv`.
 
-## Format Data
+## Format data
 
 ```bash
 python format_data.py
@@ -42,7 +42,7 @@ python format_data.py
 This script format data and extract few-shot examples at random.
 Formatted data and few-shot examples will be saved in `data`.
 
-## Measuring likelihood bias
+## Measure likelihood bias
 
 ```bash
 # Calc Score_m
@@ -58,7 +58,7 @@ python calc_likelihood_score.py -e llama2_13b -d gec
 
 Due to the design of implementation, the result (BiasScore and Evaluation performance) can be calculated after mitigating likelihood bias.
 
-## Mitigating likelihood bias
+## Mitigate likelihood bias
 
 Before calculating scores we should split the data into training and evaluation data.
 
@@ -91,6 +91,8 @@ done
 The results will be saved in `results/before/` and `result/after/`.
 
 ## Citation
+
+If you find our work useful for your research and applications, please cite using this BibTeX:
 
 ```
 @misc{ohi2024likelihoodbasedmitigationevaluationbias,
